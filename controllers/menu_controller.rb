@@ -61,6 +61,8 @@ class MenuController
       system "clear"
     else
       puts "#{selection} is not a valid input"
+      entry_n_submenu
+    end
   end
 
   def view_all_entries
