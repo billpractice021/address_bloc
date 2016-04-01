@@ -15,7 +15,7 @@ class MenuController
     puts "4 - Import entries from a CSV"
     puts "5 - Nuke all entries"
     puts "6 - Exit"
-    print "Enter your selection: "
+    print "Enter your selection: " 
 
     selection = gets.to_i
     
